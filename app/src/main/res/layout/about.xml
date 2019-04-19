@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.ram.iak.tebakgambaredisimusik.aboutActivity">>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:src="@drawable/tebakgambar"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Penampakan ikon game Tembak Gambar yang asli."
+            android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="Catatan :"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Aplikasi ini TIDAK ADA HUBUNGANNYA SAMA SEKALI ATAU TIDAK BERAFILIASI DENGAN DEVELOPER GAME TEBAK GAMBAR. Aplikasi ini hanya buatan FAN dan TIDAK MENGAMBIL KEUNTUNGAN PROFIT SEDIKITPUN."/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:src="@drawable/iak"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="Bagaimana cara bermainnya?"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Sama seperti game Tebak Gambar, disediakan gambar dan kamu akan menjawab dengan merangkai kata-kata. Perbedaannya, di sini kamu akan menjawabnya dengan judul lagu barat yang dirilis tahun 2016, dan juga ada pilihan ganda dengan jawaban benar satu dan jawaban benar dua.
+            \n\nUntuk soal dengan jawaban benar satu, kamu diperintahkan untuk melanjutkan kira-kira gambar mana yang cocok untuk dirangkai dan akhirnya menjadi sebuah gambar yang melambangkan judul lagu barat yang dirilis tahun 2016.
+            \n\nUntuk soal dengan jawaban benar dua, disediakan 3 gambar, dan kamu harus mencentang 2 gambar mana yang cocok untuk melambangkan sebuah judul lagu barat yang dirilis tahun 2016.
+
+            \n\nTerimaksih sudah mencoba Aplikasi-KU dan selamat bermain :)"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="Semua Gambar yang ada di aplikasi ini bersumber dari :"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/googlelogo"/>
+
+        <Button
+            android:id="@+id/mulai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ayo Mulai" />
+    </LinearLayout>
+</ScrollView>
